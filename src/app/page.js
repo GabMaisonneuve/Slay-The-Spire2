@@ -1,11 +1,17 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
-    <main>
-      <h1>My Diablo Style Landing Page</h1>
-      <p>This is my first Next.js project.</p>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Footer />
+    </>
   );
 }
