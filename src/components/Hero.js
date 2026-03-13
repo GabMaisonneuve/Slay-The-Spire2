@@ -1,12 +1,21 @@
 import styles from "./Hero.module.css";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1 className={styles.title}>
+        {/* <h1 className={styles.title}>
           Slay the Spire <span style={{ color: "#3eced7" }}>II</span>
-        </h1>
+        </h1> */}
+
+        <Image
+          src="/images/slaythespirelogo.webp"
+          alt="test"
+          width={500}
+          height={300}
+        ></Image>
+
         <p className={styles.subtitle}>Ascend the Spire once more.</p>
         <div className={styles.buttons}>
           <a href="#trailer" className={styles.button}>

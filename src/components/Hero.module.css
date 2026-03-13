@@ -49,3 +49,9 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+.button:hover {
+  color: #bbf0ff;
+  transition: all 0.5s ease;
+  background-color: black;
+}
