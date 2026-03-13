@@ -1,0 +1,37 @@
+.classesContainer {
+  display: flex;
+  gap: 40px;
+}
+
+.icons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.iconsImage {
+  width: 80px;
+  transition: transform 0.2s ease;
+}
+
+.iconsImage:hover {
+  transform: scale(1.1);
+}
+
+.classDisplay {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.classImageWrapper {
+  position: relative; /* required for fill */
+  width: 100%;
+  max-width: 500px; /* control how wide it can grow */
+  aspect-ratio: 4 / 5; /* control height based on width */
+  border-radius: 12px;
+  overflow: hidden; /* ensures corners are rounded */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* optional, makes it pop */
+}
