@@ -4,24 +4,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import Trailer from "@/components/Trailer";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-
-      <section id="trailer">
-        <h2>Trailer</h2>
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/watch?v=PW22jwFNxU8"
-          title="Slay the Spire 2 Trailer"
-          allowFullScreen
-        ></iframe>
-      </section>
-
+      <Trailer />
       <Features />
       <Footer />
     </>
